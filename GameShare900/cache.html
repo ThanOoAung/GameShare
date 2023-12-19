@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html manifest="cache.manifest">
+<head>
+<title>PS4 9.00 FW GoldHEN Host by GamerHack</title>
+<link rel="stylesheet" href="../style.css">
+
+<style type="text/css">
+html {
+    background-image: url('img.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: #24272b;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+}
+h1 {
+    text-shadow: 0.1em 0.1em 0.2em black;
+	font-family:verdana;
+    font-size: 20px;
+    color: yellow;
+}
+
+h2 {
+    text-shadow: 0.1em 0.1em 0.2em black;
+	font-family:verdana;
+    font-size: 35px;
+    color: yellow;
+	
+}
+
+
+a {
+    text-decoration: none;
+}
+
+#progress {
+    display: block;
+}
+
+#menu {
+    display: block;
+}
+
+#crypto {
+    display: none;
+}
+
+#tools {
+    display: none;
+}
+
+#lnx {
+    display: none;
+}
+
+#mods {
+    display: none;
+}
+
+
+
+</style>
+
+</head>
+<body>
+<script>
+history.replaceState(null,null,'index.html');var histlength=history.length;history.go(-histlength);
+function DLProgress(e){Percent=(Math.round(e.loaded / e.total * 100));setTimeout(function(){window.msgs.innerHTML="Installing Offline Cache: " + Percent + "%";},500)}
+function DisplayCacheProgress(){setTimeout(function(){window.msgs.innerHTML="Cache Installed Successfully ✔";},1500);setTimeout(function(){window.msgs.innerHTML="Now Close And Re-Open Your Browser ...";},3500);}window.applicationCache.addEventListener("progress",DLProgress,false);window.applicationCache.oncached=function(e){DisplayCacheProgress();};window.applicationCache.onupdateready=function(e){DisplayCacheProgress();};
+</script>
+<hr>
+<h2>GAME SHARE PS4 AUTO EXPLOIT GOLDHEN</h2>
+<hr>
+<br>
+<h1 id="msgs" style="font-size: 20px;margin-top: 300px;margin-bottom: 455px;">Wait a Moment...</h1>
+<h1 style="margin-top: 43px;">Special Thanks to:<a href="https://twitter.com/KothanooA79056" style="color: #f31414;margin-left: 10px;margin-right: 10px;">Game Share</a>DEV - Ko Than Oo Aung<a href="https://twitter.com/KothanooA79056" style="color: #f31414;margin-left: 10px;margin-right: 10px;">@Znullptr</a>SiSTR0</h1>
+</body>
+</html>
