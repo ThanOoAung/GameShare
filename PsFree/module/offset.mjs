@@ -33,3 +33,8 @@ export const strimpl_inline_str = 0x14;
 
 // sizeof WTF::StringImpl
 export const size_strimpl = 0x18;
+// test
+// // Offsets for WTF::StringImpl
+// export const strimpl\_strlen = 4;
+export const root_data = 1;
+// export const strimpl\_inline\_str = 0x14;
