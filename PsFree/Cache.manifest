@@ -1,8 +1,9 @@
 CACHE MANIFEST 
 
-CACHE:
-img.jpg
+CACHE: 
+cache.html
 index.html
+img.jpg
 900.elf
 900.js
 chain.js
@@ -18,7 +19,4 @@ send.js
 utils.js
 view.js
 
-NETWORK: 
-* 
-
-# Date: 2025-05-18T08:00:00Z:
+# 2025-05-18 12:00:30
